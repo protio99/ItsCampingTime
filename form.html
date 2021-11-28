@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Source+Sans+Pro:wght@300&display=swap"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="estilos/stylesForm.css">
+    <title>Rainy</title>
+</head>
+<body>
+    <div id="fatherContainer">
+        <div id='weatherCards'>
+            <div class="card">
+                <img class="img-size" src="img/heavy-rain.png" alt="">
+            </div >
+            <div class="card">
+                <img class="img-size" src="img/snow.png" alt="">
+            </div>
+            <div class="card">
+                <img class="img-size" src="img/sun(1).png" alt="">
+            </div>
+        </div>
+
+        <div id="infoForms">
+            <div id='inputForms'>
+                <h1>Rainy weather</h1>
+                <p>Choose the items that will go in your camping bag</p>
+                <form id='formInfo' action="">
+                    <label for="bagName">Input the name of your bag</label><br>
+                    <input type="text" name="bagName" id="bagName" value=""><br>
+                    <label for="">Weather</label><br>
+                    <select name="weather" id="">
+                        <option value="rainy" selected>Rainy</option>
+                        <option value="sunny">Sunny</option>
+                        <option value="chilly">Chilly</option>
+            
+                    </select><br>
+                    <label for="">Choose the days you will camp</label><br>
+                    <input type="number" name="campDays" value="" /><br><br>
+            
+                    
+                </form>
+                <button id="btnCreateBag">Create bag</button>
+                <button id="btnUpdateBag">Update bag</button>
+                <button id="btnDeleteBag">Delete bag</button>
+                <button id="btnShowBag">Show bags</button>
+                
+            
+                <form id= 'formItems' action="">
+                    <p>Now, choose the items</p>
+                    <label for="">Clothes</label><br>
+                    <select name="" id="">
+                        <option value="">Jacket</option>
+                        <option value="">Blouse</option>
+                        <option value="">Pants</option>
+                        <option value="">T-shirt</option>
+                        <option value="">Socks</option>
+                        <option value="">Cap</option>
+                        <option value="">belt</option>
+                        <option value="">Boots</option>   
+                    </select><br>
+                    
+                    <label for="">Tools</label><br>
+                    <select name="" id="">
+                        <option value="">Knife</option>
+                        <option value="">Razor</option>
+                        <option value="">Water bottle</option>
+                        <option value="">Sleeping bag</option>
+                        <option value="">Tent</option>
+                        <option value="">Burner</option>
+                        <option value="">Compass</option>   
+                    </select><br><br>
+            
+            
+                    <input type="submit" value="Show items">
+            
+            
+                </form>
+
+            </div>
+            <div id="outputInfo">
+                <h2>Bags</h2>
+
+                <div id="viewBags"> </div><br>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    
+</body>
+<script src="form.js"></script>
+</html>

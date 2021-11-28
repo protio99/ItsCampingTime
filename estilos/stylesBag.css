@@ -34,10 +34,14 @@ body{
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     height: 75%;
     align-content: space-around;
     text-align: center;
+    width: 60%;
+    margin: 2rem;
+    padding: 1rem;
+
 }
 .titulo{
     font-family: 'Dancing Script', cursive;
@@ -52,6 +56,21 @@ body{
 
 }
 .img-size{
-    width: 3rem ;
+    width: 10rem ;
 }
+
+.arrow-size{
+    width: 3rem;
+    margin: 1rem;
+
+}
+.card{
+    background-color: #014853;
+    padding: 5rem 1rem;
+    width: 30%;
+    box-shadow: 8px 9px 16px rgba(0, 0, 0, 0.72);
+    border-radius: 9px;
+
+}
+
 
