@@ -58,8 +58,14 @@ body{
     font-family:  'Source Sans Pro', sans-serif;
     color: #ffff;
     font-size: 1.5rem;
+    transition: all 1s;
 
 }
 
+.contenedorPpal-btn:hover{  
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.596);
+    background-color: #1e5663;
 
+
+}
   
