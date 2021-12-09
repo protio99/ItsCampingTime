@@ -12,6 +12,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="estilos/stylesBag.css" />
     <link rel="stylesheet" href="estilos/titleAnimation.css" />
+    <link rel="stylesheet" href="estilos/stylesRain.css" />
+    <link rel="stylesheet" href="estilos/sunrise.css" />
+    <link rel="stylesheet" href="estilos/snow.css" />
     <title>Lets pack</title>
   </head>
   <body>
@@ -26,15 +29,36 @@
 
       <div class="contenedorPpal-cards">
         <a href="form.html" class="card">
-            <img class="img-size" src="img/heavy-rain.png" alt="" />
+          <img class="img-size" src="img/heavy-rain.png" alt="" />
+          <section class="containerRain">
+            <div class="vapour"></div>
+            <h2>Rainy</h2>
+          </section>
+        </a>
+        <a href="form.html" class="card">
+          <img class="img-size" src="img/snow.png" alt="" />
+
+          <div class="snowflakes" aria-hidden="true">
+            <h2>Snow</h2>
+            <div class="snowflake">❅</div>
+            <div class="snowflake">❅</div>
+            <div class="snowflake">❆</div>
+            <div class="snowflake">❄</div>
+            <div class="snowflake">❅</div>
+            <div class="snowflake">❆</div>
+            <div class="snowflake">❄</div>
+            <div class="snowflake">❅</div>
+            <div class="snowflake">❆</div>
+            <div class="snowflake">❄</div>
+          </div>
         </a>
         <div class="card">
-          <img class="img-size" src="img/snow.png" alt="" />
-        </div>
-        <div class="card">
           <img class="img-size" src="img/sun(1).png" alt="" />
+
+          <div class="sunrise"><h2>Sunny</h2></div>
         </div>
       </div>
     </div>
+    <script src="rain.js"></script>
   </body>
 </html>

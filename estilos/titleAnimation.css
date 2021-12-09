@@ -1,6 +1,6 @@
 
 .titulo,
-.subtitulo {
+.subtitulo, .card {
  
   
 
@@ -32,6 +32,11 @@
 
 .contenedorPpal-btn{
     animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+.card{
+  animation-delay: 2s;
     animation-fill-mode: forwards;
 }
 
